@@ -1,0 +1,89 @@
+{
+  "Temp": [
+    {
+      "c": [
+        {
+          "id": 1,
+          "question1": "C language was developed by",
+          "a": "  Dennis Rechard",
+          "b": "Dennis M. Ritchie",
+          "c": " Bjarne Stroustrup",
+          "d": "Anders Hejlsberg",
+          "answer1": "Dennis M. Ritchie"
+        },
+        {
+          "question2": " In which year was C language developed?",
+          "a": "  1962",
+          "b": "1978",
+          "c": "1979",
+          "d": "1972",
+          "answer2": "1972"
+        },
+        {
+          "question2": " In which year was C language developed?",
+          "a": "  1962",
+          "b": "1978",
+          "c": "1979",
+          "d": "1972",
+          "answer2": "1972"
+        },
+        {
+          "question2": " In which year was C language developed?",
+          "a": "  1962",
+          "b": "1978",
+          "c": "1979",
+          "d": "1972",
+          "answer2": "1972"
+        }
+      ]
+    },
+    {
+      "java": [
+        {
+          "question1": " JDK stands for ____.",
+          "answer1": "Java development kit"
+        },
+        {
+          "question1": "Multiline comment is created using ___.",
+          "answer1": " /* */"
+        },
+        {
+          "question1": "Which keyword in java is used for exception handling?",
+          "answer1": "throw"
+        },
+        {
+          "question1": "What is the correct syntax to create a variable in Java?",
+          "answer1": "int name;"
+        },
+        {
+          "question1": "Array in java is ___.",
+          "answer1": "Collection of similar elements"
+        }
+      ]
+    },
+    {
+      "c": [
+        {
+          "question1": "C language was developed by",
+          "answer1": "Dennis M. Ritchie"
+        },
+        {
+          "question1": " In which year was C language developed?",
+          "answer1": "1972"
+        },
+        {
+          "question1": "C is a?",
+          "answer1": "Medium level language"
+        },
+        {
+          "question1": "Can we place comments between the statement to comments a part of the code?",
+          "answer1": "yes"
+        },
+        {
+          "question1": "To develop which operating, C language was invented?",
+          "answer1": "Unix"
+        }
+      ]
+    }
+  ]
+}
