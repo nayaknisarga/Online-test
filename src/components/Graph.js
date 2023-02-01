@@ -88,14 +88,19 @@ export default function Graph() {
   console.log("api", apidata);
 
   return (
-    <div className="piechart">
-      <PieChart
-        data={[
-          { title: "Wrong Answer", value: 5 - score, color: "red" },
-          { title: "Correct Answer", value: score, color: "green" },
-        ]}
-      />
-      ;
-    </div>
+    <>
+      <div className="graphmain">
+        <h1 className="score">FINAl SCORE {score}/5</h1>
+        <div className="piechart">
+          <PieChart
+            data={[
+              { title: "Wrong Answer", value: 5 - score, color: "red" },
+              { title: "Correct Answer", value: score, color: "green" },
+            ]}
+          />
+          ;
+        </div>
+      </div>
+    </>
   );
 }

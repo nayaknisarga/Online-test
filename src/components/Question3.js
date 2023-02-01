@@ -90,8 +90,9 @@ function Question1() {
             </li>
           </ul>
           <div className="button">
-            <button onClick={() => navigate("/Question4")}>NEXT</button>
             <button onClick={() => navigate("/Question2")}>BACK</button>
+
+            <button onClick={() => navigate("/Question4")}>NEXT</button>
           </div>
         </div>
       </div>

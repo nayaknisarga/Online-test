@@ -67,7 +67,7 @@ function Mainpage() {
       <div className="main">
         <div className="form" onSubmit={() => navigate("/Question1")}>
           <form className="inputs">
-            <label> Name:</label>
+            <label> Name : </label>
             <input
               type="text"
               name="name"
@@ -77,8 +77,8 @@ function Mainpage() {
             />
             <br />
             <br />
-            <label>Gender:</label>
-            <label htmlFor="male">Male</label>
+            <label>Gender : </label>
+            <label htmlFor="male"> Male</label>
             <input
               type="radio"
               name="gender"
@@ -87,7 +87,7 @@ function Mainpage() {
               onChange={handleUser}
             />
 
-            <label htmlFor="female">Female</label>
+            <label htmlFor="female"> Female</label>
             <input
               type="radio"
               name="gender"
@@ -99,8 +99,8 @@ function Mainpage() {
 
             <br />
 
-            <label> language:</label>
-            <select name="lang" onChange={language}>
+            <label> language : </label>
+            <select name="lang" onChange={language} className="lang">
               <option value="" disabled selected>
                 Choose Language
               </option>
@@ -113,7 +113,7 @@ function Mainpage() {
 
             <br />
             <br />
-            <button>SUBMIT</button>
+            <button className="submit">SUBMIT</button>
           </form>
         </div>
       </div>
